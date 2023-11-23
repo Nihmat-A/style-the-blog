@@ -1,0 +1,97 @@
+/* All the body text gets this font and color */ 
+
+body {
+  font-family: Poppins, sans-serif;
+  color: var(--body-text-color);
+}
+
+header{
+  padding: 24px;
+  font-size: 1.125rem;
+}
+header a{
+  color: var(--nav-color);
+  text-decoration: none;
+}
+.title{
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav-links{
+  margin-left: 55%;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 1rem;
+}
+.nav-links a{
+  margin:10px;
+}
+.nav-links a:hover{
+  text-decoration: underline;
+}
+.info{
+  color: var(--info-color);
+  margin-right: 15px;
+  display: inline-block;
+}
+.info a{
+  text-decoration: none;
+  color: var(--accent-color);
+}
+h1{
+  font-family: "Libre Baskerville",serif;
+  font-size: 2.625rem;
+  font-weight: 300;
+  margin-top:10px ;
+}
+p{
+  font-size:1.125rem;
+  line-height: 1.6;
+}
+p a{
+  color: var(--accent-color);
+}
+main{
+  padding: 15px;
+  max-width: 620px;
+  margin: auto;
+}
+footer{
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+  padding: 3rem;
+}
+h4{
+  font-family:"Libre Baskerville",serif;
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--accent-color);
+}
+footer p {
+  max-width: 500px;
+  margin: auto;
+}
+footer li{
+  list-style: none;
+  padding-top:5px ;
+}
+footer a{
+  color: var(--footer-text-color);
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer ul{
+  padding: 0px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.social-icons {
+  text-align: center;
+  fill: var(--footer-text-color);
+}
